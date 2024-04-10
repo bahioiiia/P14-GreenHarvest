@@ -33,3 +33,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+}
