@@ -1,4 +1,11 @@
 /* Reset styles */
+:root {
+  --wht: #FBFBFB;
+  --blk: #141414;
+  --grn: #576F35;
+  --bwn: #7A3145;
+}
+
 h1,
 h2,
 h3,
