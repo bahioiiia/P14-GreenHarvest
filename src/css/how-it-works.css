@@ -1,3 +1,133 @@
-.howit {
-    background-color: #576F35;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  ol{
+    list-style: none;
+  }
+
+.howit{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fbfbfb;
+    margin: 0 auto;
+}
+.howit-description-header{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.howit-description{
+    line-height: 1.29;
+}
+
+.howit-list-text{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.6);
+    padding-left: 76px;
+}
+.howit-photo-container{
+    background: #7a3145;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.howit-photo-wraper{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.howit-decription-container{
+    background: #576f35;
+    margin:0 auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.howit-description-wraper{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.howit-image{
+    /* width: 320px;
+    height: 450px; */
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+.howit-description-header{
+    margin-bottom: 20px;
+}
+.howit-list-item{
+    background: #fbfbfb;
+    border-radius: 15px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 76px;
+    position: relative;
+    margin-left: auto;
+}
+.howit-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    counter-reset: list;
+    width: 100%;
+    padding: 0;
+}
+.howit-bold{
+    font-weight: 700;
+    color: #141414;
+}
+.howit-light{
+    color: rgba(251, 251, 251, 0.3);
+}
+.howit-list-item::before {
+    counter-increment: list; 
+    content: "" counter(list); 
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 100%;
+    background-color: #7a3145;
+    border: 5px solid rgba(255, 255, 255, 0.609);
+    display: flex;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 29px;
+    /* margin-right: 24px; */
+  }
+@media  (min-width:375px) {
+    .howit-photo-wraper{
+        width: 375px;
+        margin:0 auto;
+        
+    }
+    .howit-description-wraper{
+        width: 375px;
+        margin:0 auto;
+    }
+    .howit-image{
+        width: 100%;
+        margin: 0;
+    }
 }
