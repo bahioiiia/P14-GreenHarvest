@@ -1,3 +1,25 @@
 .adver {
-    background-color:bisque ;
+    background-color: var(--wht) ;
+}
+.adver-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--blk);
+}
+
+@media screen and (min-width: 768px) {
+    .adver-text {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .adver-text {
+        font-size: 76px;
+        line-height: 1.05;
+    }
 }

@@ -1,4 +1,11 @@
 /* Reset styles */
+:root {
+  --wht: #FBFBFB;
+  --blk: #141414;
+  --grn: #576F35;
+  --bwn: #7A3145;
+}
+
 h1,
 h2,
 h3,
@@ -37,4 +44,5 @@ img {
 body {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
+  color: #fbfbfb;
 }
