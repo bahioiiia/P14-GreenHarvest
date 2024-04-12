@@ -2,21 +2,114 @@ ul {
     list-style-type: none;
 }
 
-.header {
-    background-color: aqua;
-}
-
-.header-logo {
-    display: flex;
-    width: 168px;
-    align-items: center;
-    gap: 4px;
+.logo-image {
+    margin-right: 4px;
 }
 
 .header-list {
+    background: #576F35;
     display: flex;
     align-items: center;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+.icon-header {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.header-logo {
+    margin-right: 4px;
+    padding-top: 32px;
+}
+
+.header-container {
+    background-color: #576F35;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.header-item {
+    visibility: hidden;
+}
+
+.header-logo {
+    fill: var(--wht);
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        background-color: #576F35;
+        min-width: 768px;
+        margin: 0 auto;
+    }
+
+    .header-item {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .hader-container {
+        background-color: #576F35;
+        min-width: 1158px;
+    }
+
+    .header-icon {
+        visibility: hidden;
+    }
+
+    .header-item {
+        visibility: visible;
+        display: flex;
+        gap: 20px;
+        padding-right: 100px;
+        padding-top: 32px;
+    }
+
+    .header-btn {
+        border-radius: 12px;
+        border: 1px solid rgba(251, 251, 251, 0.40);
+        padding: 12px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .header-btn-shop {
+        border-radius: 30px;
+        background: #7A3145;
+    }
+
+    .header-item-text {
+        color: #FBFBFB;
+        text-align: center;
+        font-family: "Inter Tight";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: -0.32px;
+    }
+
+    .header-item-text-btn {
+        color: #FBFBFB;
+        font-family: "Inter Tight";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 111.111% */
+        letter-spacing: -0.27px;
+        text-transform: uppercase;
+    }
+
+    .header-btn-1 {
+        border-radius: 30px;
+        background: #7A3145;
+        padding: 16px 32px;
+        justify-content: center;
+        cursor: pointer;
+    }
 }
