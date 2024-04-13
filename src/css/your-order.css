@@ -3,7 +3,7 @@
 }
 
 a {
-  color: #fbfbfb;
+  color: var(--wht);
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -16,12 +16,6 @@ a:focus {
   /* color: #404bbf; */
 }
 
-.container {
-  /* max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px; */
-}
-
 .order-title {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -29,7 +23,8 @@ a:focus {
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
+  color: var(--wht);
+  margin-bottom: 29px;
 }
 
 .order-title-harvest {
@@ -40,7 +35,8 @@ a:focus {
   font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
   line-height: 1.29;
-  color: #fbfbfb;
+  color: var(--wht);
+  margin-bottom: 40px;
 }
 
 .order-form {
@@ -48,7 +44,78 @@ a:focus {
   padding: 40px 20px;
   width: 335px;
   height: 533px;
-  background-color: #fbfbfb;
+  background-color: var(--wht);
+  margin-bottom: 20px;
+}
+
+.order-form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding-bottom: 40px;
+}
+
+.order-form-title-from {
+  color: var(--bwn);
+}
+
+.order-form-title-the {
+  color: var(--grn);
+}
+
+.order-form-input {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 220px 14px 16px;
+  width: 100%;
+  height: 46px;
+  margin-bottom: 15px;
+  padding: 14px 16px;
+}
+
+.order-form-input::placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.order-form-comment {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  padding: 14px 219px 59px 16px;
+  width: 100%;
+  height: 91px;
+  padding: 14px 16px;
+}
+
+.order-form-comment::placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.order-button {
+  background-color: var(--grn);
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 16px 129px;
+  min-width: 295px;
+  height: 50px;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--wht);
+  display: block;
+  cursor: pointer;
+  border: none;
 }
 
 .soc-networks {
@@ -61,6 +128,33 @@ a:focus {
 
 .soc-networks-picture {
   max-width: 100%;
+  border: none;
+  border-radius: 16px;
+  border: none;
+  background-color: rgba(20, 20, 20, 0.3);
+}
+
+.soc-networks-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.soc-networks-list {
+  display: block;
+}
+
+.soc-networks-list {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  color: var(--wht);
 }
 
 @media screen and (min-width: 768px) {
