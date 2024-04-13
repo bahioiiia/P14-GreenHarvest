@@ -2,10 +2,6 @@
   background-color: var(--bwn);
 }
 
-/* .container {
-  margin: 0 auto;
-} */
-
 a {
   color: var(--wht);
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
@@ -168,11 +164,6 @@ a:focus {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    /* width: 640px; */
-    /* padding: 100px 32px; */
-  }
-
   .order-title {
     width: 640px;
     font-size: 64px;
