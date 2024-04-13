@@ -9,11 +9,23 @@
     text-transform: uppercase;
     color: var(--blk);
 }
+.adver-discount {
+    color: var(--wht);
+    background-color: var(--grn);
+    border-radius: 12px;
+    width: 355px;
+    height: 102px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
 @media screen and (min-width: 768px) {
     .adver-text {
         font-size: 64px;
         line-height: 1.09;
+    }
+    .adver-discount {
+        width: 736px;
+        height: 86px;
     }
 }
 
@@ -21,5 +33,9 @@
     .adver-text {
         font-size: 76px;
         line-height: 1.05;
+    }
+    .adver-discount {
+        width: 808px;
+        height: 86px;
     }
 }
