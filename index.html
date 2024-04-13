@@ -19,8 +19,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/P14-GreenHarvest/assets/main-6a607b1b.js"></script>
-    <link rel="stylesheet" href="/P14-GreenHarvest/assets/main-764107eb.css">
+    <script type="module" crossorigin src="/P14-GreenHarvest/assets/main-9dbd997b.js"></script>
+    <link rel="stylesheet" href="/P14-GreenHarvest/assets/main-4897f874.css">
   </head>
 
   <body>
@@ -260,13 +260,22 @@
     </p>
     <div>
       <form class="order-form">
-        <h3>
-          Ordering <span class="">from us</span> is quick and easy! Fill out
-          <span>the form</span> below and we will contact you !
+        <h3 class="order-form-title">
+          Ordering <span class="order-form-title-from">from us</span> is quick
+          and easy! Fill out
+          <span class="order-form-title-the">the form</span> below and we will
+          contact you !
         </h3>
-        <input type="text" />
         <input
-          class="inp"
+          class="order-form-input"
+          type="text"
+          name="full-name"
+          placeholder="Full name"
+          id="full-name"
+          required
+        />
+        <input
+          class="order-form-input"
           type="email"
           name="email"
           placeholder="Email"
@@ -274,12 +283,13 @@
           required
         />
         <textarea
-          name="order-textarea"
-          id="order-textarea"
-          cols="30"
-          rows="10"
+          class="order-form-comment"
+          name="form-comment"
+          id="form-comment"
+          placeholder="Comment"
+          rows="4"
         ></textarea>
-        <button type="submit">Send</button>
+        <button class="order-button" type="submit">Send</button>
       </form>
       <div class="soc-networks">
         <picture class="soc-networks-picture">
@@ -305,17 +315,28 @@
             media="(min-width: 375px)"
           />
           <img
+            class="soc-networks-picture"
             src="../img/your-order/rectangle-mob.jpg"
             alt="Rectangle"
             width="295"
             height="273"
           />
         </picture>
-        <p>Follow us on our social networks:</p>
-        <ul>
-          <li><a href="https://www.instagram.com/goitclub/">instagram /</a></li>
-          <li><a href="https://www.facebook.com/goITclub/">facebook /</a></li>
-          <li><a href="https://www.youtube.com/c/GoIT">youtube</a></li>
+        <p class="soc-networks-text">Follow us on our social networks:</p>
+        <ul class="soc-networks-list">
+          <li class="soc-networks-list">
+            <a href="https://www.instagram.com/goitclub/" target="_blank"
+              >instagram /</a
+            >
+          </li>
+          <li class="soc-networks-list">
+            <a href="https://www.facebook.com/goITclub/" target="_blank"
+              >facebook /</a
+            >
+          </li>
+          <li class="soc-networks-list">
+            <a href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+          </li>
         </ul>
       </div>
     </div>
