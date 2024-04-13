@@ -1,9 +1,9 @@
 /* Reset styles */
 :root {
-  --wht: #FBFBFB;
+  --wht: #fbfbfb;
   --blk: #141414;
-  --grn: #576F35;
-  --bwn: #7A3145;
+  --grn: #576f35;
+  --bwn: #7a3145;
 }
 
 h1,
@@ -47,7 +47,7 @@ address {
 }
 /* ======COMMON-STYLES======= */
 body {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   color: var(--wht);
 }
@@ -74,14 +74,10 @@ body {
 
 .container {
   padding: 80px 20px;
-
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin: 0 auto;
-  }
 }
 
 @media screen and (min-width: 768px) {
