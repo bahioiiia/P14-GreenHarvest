@@ -32,11 +32,18 @@ a:focus {
 }
 
 .order-title-text {
-  font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
   line-height: 1.29;
   color: var(--wht);
   margin-bottom: 40px;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
 }
 
 .order-form {
@@ -45,7 +52,6 @@ a:focus {
   width: 335px;
   height: 533px;
   background-color: var(--wht);
-  margin-bottom: 20px;
 }
 
 .order-form-title {
@@ -104,7 +110,7 @@ a:focus {
   margin-top: 20px;
   border-radius: 30px;
   padding: 16px 129px;
-  min-width: 295px;
+  width: 100%;
   height: 50px;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -148,7 +154,7 @@ a:focus {
   display: block;
 }
 
-.soc-networks-list {
+.soc-networks-item {
   display: inline-block;
   font-weight: 600;
   font-size: 24px;
@@ -158,19 +164,80 @@ a:focus {
 }
 
 @media screen and (min-width: 768px) {
+  .order-title {
+    width: 640px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  .order-title-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 640px;
+  }
+
+  .order-item {
+    margin: 0 auto;
+    gap: 25px;
+  }
+
+  .order-form {
+    width: 628px;
+    padding: 50px 100px;
+  }
+
+  .soc-networks {
+    width: 628px;
+    padding: 50px;
+  }
+
   .soc-networks-picture {
     width: 528px;
     height: 273px;
+    margin: 0 auto;
+  }
+
+  .soc-networks-text {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .soc-networks-item {
+    font-size: 32px;
+    line-height: 1;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .order-title {
-    font-size: 64px;
-    line-height: 1;
+    width: 751px;
+  }
+
+  .order-title-text {
+    width: 751px;
+  }
+
+  .order-item {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .order-form {
+    width: 529px;
+    height: 534px;
+  }
+
+  .soc-networks {
+    width: 527px;
+    height: 534px;
   }
 
   .soc-networks-picture {
-    max-width: 427px;
+    width: 427px;
+    height: 273px;
   }
 }
