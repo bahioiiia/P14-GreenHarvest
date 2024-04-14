@@ -25,14 +25,18 @@
           id="full-name"
           required
         />
-        <input
-          class="order-form-input"
-          type="email"
-          name="email"
-          placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
+        <div class="input-wrap">
+          <input
+            class="order-form-input"
+            type="email"
+            name="email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <p class="text-valid">Succes!</p>
+          <p class="text-invalid">Invalid email, try again</p>
+        </div>
         <textarea
           class="order-form-comment"
           name="form-comment"
@@ -78,16 +82,18 @@
         <ul class="soc-networks-list">
           <li class="soc-networks-item">
             <a href="https://www.instagram.com/goitclub/" target="_blank"
-              >instagram /</a
+              >instagram /&nbsp;</a
             >
           </li>
           <li class="soc-networks-item">
             <a href="https://www.facebook.com/goITclub/" target="_blank"
-              >facebook /</a
+              >facebook /&nbsp;</a
             >
           </li>
           <li class="soc-networks-item">
-            <a href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+            <a href="https://www.youtube.com/c/GoIT" target="_blank">
+              youtube</a
+            >
           </li>
         </ul>
       </div>
