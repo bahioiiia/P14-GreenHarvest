@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/P14-GreenHarvest/assets/main-7840406f.js"></script>
-    <link rel="stylesheet" href="/P14-GreenHarvest/assets/main-8173c9f3.css">
+    <script type="module" crossorigin src="/P14-GreenHarvest/assets/main-6d858a73.js"></script>
+    <link rel="stylesheet" href="/P14-GreenHarvest/assets/main-fc1d2cc6.css">
   </head>
   <body>
     <header class="header">
@@ -63,8 +63,27 @@
     </ul>
   </div>
   <!-- !====DONT-TOUCH!===MOBILE-MENU===== -->
-  <div class="mobile-menu"></div>
-
+  <div class="tab-menu ">
+  <div class="mob-menu is-open">
+    <button type="button" class="mob-close">
+      <svg class="mob-icon-close" width="32" height="32">
+        <use href="/P14-GreenHarvest/assets/icons-b0629976.svg#icon-mob-close"></use>
+      </svg>
+    </button>
+    <div class="mob-nav">
+      <nav>
+        <ul class="mob-list">
+          <li class="mob-item mob-item-hiw"><a href="/src/partials/how-it-works.html" class="mob-link mob-link-hiw">How
+              It
+              Works</a></li>
+          <li class="mob-item"><a href="/src/partials/vegetables.html" class="mob-link">Vegetables</a></li>
+          <li class="mob-item mob-rev"><a href="/src/partials/reviews.html" class="mob-link">Reviews</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="mob-btn">Shop now</button>
+  </div>
+</div>
   <!-- !====MOBILE-MENU-END===== -->
 </header>
 
