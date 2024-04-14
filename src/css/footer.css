@@ -86,7 +86,12 @@
     color: #FBFBFB;
 
 }
+<<<<<<< Updated upstream
 
+=======
+/* .phone-number {
+} */
+>>>>>>> Stashed changes
 .privacy-policy {
    margin-top: 80px;
    display: flex;
@@ -99,7 +104,12 @@
     flex-direction: row;
     gap: 8px;
 }
+<<<<<<< Updated upstream
 
+=======
+/* .pp-block2 {
+} */
+>>>>>>> Stashed changes
 
 .pp-text {
     font-style: normal;
