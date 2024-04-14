@@ -69,13 +69,14 @@ body {
 
 
 .container {
-  padding: 80px 20px;
+  padding: 80px 5px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
-        margin: 0 auto;
+        padding: 80px 20px;
       }
 }
 
