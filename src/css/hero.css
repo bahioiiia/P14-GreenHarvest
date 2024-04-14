@@ -174,3 +174,6 @@ gap: 128px;
 margin-left: 100px;
 }
 }
+.hero{
+  position: relative;
+}
