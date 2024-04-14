@@ -12,8 +12,12 @@ a:active {
   /* color: #404bbf; */
 }
 
-a:focus {
-  /* color: #404bbf; */
+input:active {
+  border: none;
+}
+
+input:focus {
+  border: none;
 }
 
 .order-title {
@@ -73,12 +77,13 @@ a:focus {
 }
 
 .order-form-input {
+  outline: none;
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 30px;
   padding: 14px 220px 14px 16px;
   width: 100%;
   height: 46px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   padding: 14px 16px;
 }
 
@@ -87,6 +92,49 @@ a:focus {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #141414;
+}
+
+/* стилізація інпута в стані фокус */
+.order-form-input:focus {
+  outline: none;
+  border: 1px solid var(--bwn);
+}
+
+/* стилізація інпута при не валідному значенні */
+.order-form-input:not(:placeholder-shown):invalid {
+  outline: none;
+  border: 1px solid red;
+}
+
+/* стилізація інпута при валідному значенні */
+.order-form-input[type='email']:valid {
+  border-color: var(--grn);
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-bottom: 3px;
+  display: none;
+}
+
+.text-valid {
+  color: var(--grn);
+}
+
+.text-invalid {
+  color: red;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.order-form-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.order-form-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
 }
 
 .order-form-comment {
@@ -103,6 +151,17 @@ a:focus {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #141414;
+}
+
+/* стилізація інпута в стані фокус */
+.order-form-comment:focus {
+  outline: none;
+  border-color: var(--bwn);
+}
+
+.input-wrap {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .order-button {
@@ -124,6 +183,10 @@ a:focus {
   border: none;
 }
 
+.order-button:is(:hover, :focus) {
+  background-color: var(--bwn);
+}
+
 .soc-networks {
   background-color: var(--grn);
   border-radius: 30px;
@@ -137,7 +200,7 @@ a:focus {
   border: none;
   border-radius: 16px;
   border: none;
-  background-color: rgba(20, 20, 20, 0.3);
+  filter: brightness(70%);
 }
 
 .soc-networks-text {
