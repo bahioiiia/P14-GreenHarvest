@@ -66,11 +66,7 @@ body {
   overflow: hidden;
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
+
 
 .container {
   padding: 80px 20px;
