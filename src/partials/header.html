@@ -1,23 +1,35 @@
 <header class="header">
-  <div class="container header-container">
-      <nav class="header-navigation">
-        <div class="header-navigation-container">
-          <a class="header-logo">
-              <svg width="18" height="18">
-                <use
-                  href="/img/icons.svg#icon-logo-mobile"
-                ></use>
-              </svg>
-              <svg width="168" height="15">
-                <use
-                  href="/img/icons.svg#icon-green-harvest-mobile"
-                ></use>
-              </svg>
-          </a>
-          <button type="button" class="header-button">
-            <svg class="header-mobile-menu" width="32" height="24">
-              <use href="/img/icons.svg#icon-tab-menu"></use>
-            </svg>
+  <div class="header-container">
+    <ul class="header-list">
+      <li class="header-logo">
+        <svg>
+          <use
+            href="/img/icons.svg#icon-logo-mobile"
+            width="18"
+            height="18"
+          ></use>
+        </svg>
+      </li>
+      <li>
+        <svg>
+          <use
+            class="header-logo"
+            href="/img/icons.svg#icon-green-harvest-mobile"
+          ></use>
+        </svg>
+      </li>
+      <li class="header-icon">
+        <img
+          src="/images/heroicons-outline_menu-alt-1.svg"
+          width="32"
+          height="32"
+          alt=""
+        />
+      </li>
+      <ul class="header-item">
+        <li>
+          <button class="header-btn" type="submit">
+            <span class="header-item-text">How It Works</span>
           </button>
           <ul class="header-item">
             <li>
@@ -44,4 +56,7 @@
         </div>
       </nav>
   </div>
+  <!-- !====DONT-TOUCH!===MOBILE-MENU===== -->
+  <load src="./mobile-menu.html" />
+  <!-- !====MOBILE-MENU-END===== -->
 </header>

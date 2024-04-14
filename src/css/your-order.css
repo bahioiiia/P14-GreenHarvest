@@ -48,12 +48,13 @@ input:focus {
   margin: 0 auto;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 .order-form {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  width: 100%;
   height: 533px;
   background-color: var(--wht);
 }
@@ -85,6 +86,7 @@ input:focus {
   height: 46px;
   /* margin-bottom: 15px; */
   padding: 14px 16px;
+  width: 100%;
 }
 
 .order-form-input::placeholder {
@@ -168,7 +170,7 @@ input:focus {
   background-color: var(--grn);
   margin-top: 20px;
   border-radius: 30px;
-  padding: 16px 129px;
+  padding: 16px 79px;
   width: 100%;
   height: 50px;
   font-family: 'Inter Tight', sans-serif;
@@ -191,12 +193,12 @@ input:focus {
   background-color: var(--grn);
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  width: 100%;
   /* height: 465px; */
 }
 
 .soc-networks-picture {
-  max-width: 100%;
+  width: 100%;
   border: none;
   border-radius: 16px;
   border: none;
@@ -224,6 +226,37 @@ input:focus {
   line-height: 1.08333;
   letter-spacing: -0.01em;
   color: var(--wht);
+}
+
+@media screen and (min-width: 375px) {
+  .order-item {
+    width: 335px;
+  }
+
+  .order-form {
+    width: 335px;
+  }
+
+  .order-form-input {
+    width: 295px;
+  }
+
+  .order-form-comment {
+    width: 295px;
+  }
+
+  .order-button {
+    width: 295px;
+    padding: 16px 129px;
+  }
+
+  .soc-networks {
+    width: 335px;
+  }
+
+  .soc-networks-picture {
+    width: 295px;
+  }
 }
 
 @media screen and (min-width: 768px) {
