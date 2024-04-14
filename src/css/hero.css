@@ -56,13 +56,14 @@
 
 
 @media screen and (min-width: 375px) {
+  .hero-container {
+    max-width: 767px;
+  }
   .hero-text-wrap {
     width: 335px;
   }
 
   .hero-img {
-    width: 375px;
-    height: 370px;
     background-image:
     linear-gradient(
         rgba(20, 20, 20, 0.2),
@@ -90,6 +91,7 @@
 @media screen and (min-width: 768px) {
   .hero-container {
     padding-top: 122px;
+    max-width: 1279px;
   }
   .hero-text-wrap {
     width: 704px;
@@ -98,8 +100,6 @@
   }
 
   .hero-img {
-    width: 768px;
-    height: 539px;
     background-image:
     linear-gradient(
         rgba(20, 20, 20, 0.2),
@@ -143,8 +143,6 @@
 }
 
 .hero-img {
-    width: 650px;
-    height: 800px;
     background-image:
     linear-gradient(
         rgba(20, 20, 20, 0.2),
