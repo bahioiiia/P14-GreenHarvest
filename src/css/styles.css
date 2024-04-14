@@ -16,3 +16,9 @@
 @import url('./reviews.css');
 @import url('./your-order.css');
 @import url('./footer.css');
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 51;
+}
