@@ -167,7 +167,7 @@
         padding-right: 100px;
     }
     .howit-photo-container{
-        width: 49%;
+        width: 50%;
     }
     .howit-description-wraper{
         width: 650px;
@@ -176,6 +176,6 @@
     }
     .howit-decription-container{
         padding-bottom: 160px;
-        width: 51%;
+        width: 50%;
     }
 }
