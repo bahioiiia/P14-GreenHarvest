@@ -18,16 +18,16 @@
 
     <!-- OLEH -->
     <symbol id="icon-mob-close" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16M8 8l16 16"></path>
-    </symbol>
-    <symbol id="icon-mob-menu" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M5.333 8h21.334M5.333 16h10.667M5.334 24h21.333"></path>
-    </symbol>
+      <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 3.225l-3.225-3.225-12.775 12.775-12.775-12.775-3.225 3.225 12.775 12.775-12.775 12.775 3.225 3.225 12.775-12.775 12.775 12.775 3.225-3.225-12.775-12.775z"></path>
+    <symbol>
+   <symbol id="icon-mob-menu" viewBox="0 0 42 32">
+      <path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.734 3.2h34.133M3.734 16h17.067M3.734 28.8h34.133"></path>
+   </symbol>
     <symbol id="icon-tab-close" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M24 8l-16 16M8 8l16 16"></path>
+     <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776z"></path>
     </symbol>
-    <symbol id="icon-tab-menu" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M5.6 8h21.334M5.6 16h10.666M5.6 24h21.334"></path>
+    <symbol id="icon-tab-menu" viewBox="0 0 43 32">
+      <path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M3.555 2.667h35.556M3.555 16h17.778M3.555 29.333h35.556"></path>
     </symbol>
   </defs>
 </svg>
