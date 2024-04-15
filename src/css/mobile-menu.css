@@ -60,6 +60,7 @@
 .mob-item-hiw {
   padding: 12px 16px;
   background-color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .mob-rev {
@@ -107,6 +108,9 @@
 .tab-button{
   width: 40px;
   height: 40px;
+}
+.mob-item-hiw:hover .mob-link-hiw{
+  color: rgba(122, 49, 69, 0.7);
 }
 .mob-btn:active,
 .mob-btn:hover,
@@ -161,6 +165,7 @@
   .mob-button{
     display: none;
   }
+
 }
 
 @media screen and (min-width: 1280px) {
