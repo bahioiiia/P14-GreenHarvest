@@ -1,115 +1,3 @@
-/* .adver {
-    background: #fbfbfb;
-    width: 375px;
-}
-
-.adver-container {
-    padding: 80px 10px;
-}
-
-.adver-wrap {
-    width: 355px;
-    position: relative;
-    height: 309px;
-}
-
-.adver-box {
-    border-radius: 12px;
-    width: 355px;
-    height: 102px;
-    background: #576f35;
-}
-
-.adver-title {
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.04;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    max-width: 335px;
-    min-height: 309px;
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-
-.adver-title span {
-    color: #141414;
-}
-
-
-@media screen and (min-width: 768px) {
-    .adver {
-        width: 768px;
-    }
-
-
-    .adver-container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .adver-wrap {
-        width: 736px;
-        position: relative;
-        height: 288px;
-
-    }
-
-    .adver-box {
-        width: 736px;
-        height: 86px;
-    }
-
-    .adver-title {
-        font-size: 64px;
-        line-height: 1.09;
-        max-width: 704px;
-        min-height: 280px;
-        position: absolute;
-        top: 8px;
-        left: 16px;
-    }
-
-}
-
-
-@media screen and (min-width: 1280px) {
-
-    .adver {
-        width: 1280px;
-    }
-
-    .adver-container {
-        padding: 100px;
-    }
-
-    .adver-wrap {
-        width: 1080px;
-        position: relative;
-        height: 240px;
-
-    }
-
-    .adver-box {
-        width: 808px;
-        height: 86px;
-    }
-
-    .adver-title {
-        font-size: 76px;
-        line-height: 1.05;
-        max-width: 1054px;
-        min-height: 240px;
-        position: absolute;
-        top: 0;
-        left: 13px;
-    }
-} */
-
-
 .adver {
     background-color: var(--wht) ;
 }
@@ -131,11 +19,10 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 12px;
 
-    width: 310px;
-    height: 102px;
+    width: calc(100% + 5px);
+    height: 100%;
     padding-left: 3px;
     margin-left: -5px;
-/*     margin-right: 1px; */
 }
 
 @media screen and (min-width: 375px) {
