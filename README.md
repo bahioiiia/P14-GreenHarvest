@@ -1,4 +1,3 @@
-<!--
 Project 14 "Огірки"
 
 TL Іван Герасевич
@@ -11,4 +10,4 @@ Oleh Lutchenko - REVIEWS (+MOBILE-MENU)
 Володимир Кравчик - VEGETABLES
 Олександра Гоцин - YOUR-ORDER
 Віктор Ярина - HEADER+MENU потрапив у лікарню на операцію :(
-Іван Герасевич - ADVERTISEMENT (+HEADER) -->
+Іван Герасевич - ADVERTISEMENT (+HEADER)
