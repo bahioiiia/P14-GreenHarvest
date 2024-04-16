@@ -112,6 +112,9 @@
 .mob-item-hiw:hover .mob-link-hiw{
   color: rgba(122, 49, 69, 0.7);
 }
+.mob-item-hiw:focus .mob-link-hiw{
+  color: rgba(122, 49, 69, 0.7);
+}
 .mob-btn:active,
 .mob-btn:hover,
 .mob-btn:focus {
