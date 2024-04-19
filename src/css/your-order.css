@@ -225,9 +225,13 @@ input:focus {
   display: inline-block;
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.08333;
+  line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--wht);
+}
+
+.soc-networks-item:hover {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 375px) {
@@ -340,6 +344,11 @@ input:focus {
   .order-form {
     width: 529px;
     height: 534px;
+    padding: 50px;
+  }
+
+  .order-form-input {
+    width: 100%;
   }
 
   .soc-networks {
